@@ -34,18 +34,18 @@ I created three models and was unable to increase the accuracy to over 75%. The 
 
 ![attempt_1](https://user-images.githubusercontent.com/87910875/149023504-b73cc613-8879-434a-8aa8-1530aa8a4f84.png)
 
-*Number of layers: 5
-*Number of nodes per layer from first to last: 100, 100, 50, 3
-*Activation function of each layer from first to last: relu, tanh, relu, softmax
+* Number of layers: 5
+* Number of nodes per layer from first to last: 100, 100, 50, 3
+* Activation function of each layer from first to last: relu, tanh, relu, softmax
 
 ![attempt_2](https://user-images.githubusercontent.com/87910875/149023934-3373f8c6-682f-4e31-aeca-d81a8e59118f.png)
 
-*Number of layers: 4
-*Number of nodes per layer from first to last: 50, 50, 50
-*Activation function of each layer from first to last: tanh, tanh, tanh, sigmoid
+* Number of layers: 4
+* Number of nodes per layer from first to last: 50, 50, 50
+* Activation function of each layer from first to last: tanh, tanh, tanh, sigmoid
 
 ![attempt_3](https://user-images.githubusercontent.com/87910875/149023942-6cf63b89-a1a5-45ef-910c-dd8ae0c7deb3.png)
 
-*Number of layers: 5
-*Number of nodes per layer from first to last: 100, 100, 50, 3
-*Activation function of each layer from first to last: relu, relu, relu, sigmoid
+* Number of layers: 5
+* Number of nodes per layer from first to last: 100, 100, 50, 3
+* Activation function of each layer from first to last: relu, relu, relu, sigmoid
