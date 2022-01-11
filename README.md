@@ -6,6 +6,8 @@ The purpose of this project is to create an neural network that can accurately p
 # Results 
 The target variable is the IS_SUCCESSFUL variable which displayed whether the company was successful with their funds
 
+
+###  Data Preprocessing
 The feature variables are :
 * EIN and NAME—Identification columns
 * APPLICATION_TYPE—Alphabet Soup application type
@@ -17,3 +19,11 @@ The feature variables are :
 * INCOME_AMT—Income classification
 * SPECIAL_CONSIDERATIONS—Special consideration for application
 * ASK_AMT—Funding amount requested
+
+The removed varibles are:
+* EIN and NAME—Identification columns
+
+###  Compiling, Training, and Evaluating the Model
+I had 3 layers for the network, two hidden layers, one with 80 nodes and the other with 30 nodes, and  an output layer. The hidden layers has the relu activation function and the output layer has the sigmoid activation function. I created the number of nodes and number of layers to avoid underfitting and overfitting, the model has a decent accuracy as seen below.
+
+[Uploading model_acc.png…]()
