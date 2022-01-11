@@ -49,3 +49,6 @@ I created three models and was unable to increase the accuracy to over 75%. The 
 * Number of layers: 5
 * Number of nodes per layer from first to last: 100, 100, 50, 3
 * Activation function of each layer from first to last: relu, relu, relu, sigmoid 
+
+# Summary 
+Overall, through all the changes that were made I couldn't increase the accuracy enough for the model to be used. A possible solution for this would be to add more data, more data could possibly increase the accuracy of the model. The model should not be implemented until the accuracy is increased.
