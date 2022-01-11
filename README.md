@@ -1,7 +1,7 @@
 # Neural_Network_Charity_Analysis
 
 # Overview
-The purpose of this project is to create an neural network that can accurately predict whether applicants will be successful if funded by Alphabet Soup. More athn 34,000 organizations have received funding, some have done well with the funds while some haven't.
+The purpose of this project is to create a neural network that can accurately predict whether applicants will be successful if funded by Alphabet Soup. More than 34,000 organizations have received funding, some have done well with the funds while some haven't.
 
 # Results 
 The target variable is the IS_SUCCESSFUL variable which displayed whether the company was successful with their funds
@@ -20,11 +20,11 @@ The feature variables are :
 * SPECIAL_CONSIDERATIONS—Special consideration for application
 * ASK_AMT—Funding amount requested
 
-The removed varibles are:
+The removed variables are:
 * EIN and NAME—Identification columns
 
 ###  Compiling, Training, and Evaluating the Model
-I had 3 layers for the network, two hidden layers, one with 80 nodes and the other with 30 nodes, and  an output layer. The hidden layers has the relu activation function and the output layer has the sigmoid activation function. I created the number of nodes and number of layers to avoid underfitting and overfitting, the model has a decent accuracy as seen below. Even though the accuracy is relatively good, I would like to create a model with a higher accuracy due to the high amount of funds involed. Overall, I dont think I achieved the target.
+I had 3 layers for the network, two hidden layers, one with 80 nodes and the other with 30 nodes, and  an output layer. The hidden layers have the relu activation function and the output layer has the sigmoid activation function. I created the number of nodes and number of layers to avoid underfitting and overfitting, the model has a decent accuracy as seen below. Even though the accuracy is relatively good, I would like to create a model with a higher accuracy due to the high amount of funds involved. Overall, I don't think I achieved the target.
 
 
 ![model_acc](https://user-images.githubusercontent.com/87910875/149022997-4aae2d0a-fc98-486a-a2d2-2ae80702eb80.png)
@@ -51,4 +51,4 @@ I created three models and was unable to increase the accuracy to over 75%. The 
 * Activation function of each layer from first to last: relu, relu, relu, sigmoid 
 
 # Summary 
-Overall, through all the changes that were made I couldn't increase the accuracy enough for the model to be used. A possible solution for this would be to add more data, more data could possibly increase the accuracy of the model. The model should not be implemented until the accuracy is increased.
+Overall, through all the changes that were made, I couldn't increase the accuracy enough for the model to be used. A possible solution for this would be to add more data, more data could possibly increase the accuracy of the model. The model should not be implemented until the accuracy is increased. I would like to know what alterations could be made with the same dataset to achieve higher accuracy.
