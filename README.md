@@ -48,4 +48,4 @@ I created three models and was unable to increase the accuracy to over 75%. The 
 
 * Number of layers: 5
 * Number of nodes per layer from first to last: 100, 100, 50, 3
-* Activation function of each layer from first to last: relu, relu, relu, sigmoid
+* Activation function of each layer from first to last: relu, relu, relu, sigmoid 
